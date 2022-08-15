@@ -31,5 +31,8 @@ class MainFragment : Fragment() {
         viewBinder.buttonAdd.setOnClickListener {
             findNavController().navigate(R.id.gotoAddFragment)
         }
+        viewBinder.buttonEntries.setOnClickListener {
+            findNavController().navigate(R.id.gotoEntries)
+        }
     }
 }

@@ -10,9 +10,16 @@
         <action
             android:id="@+id/gotoAddFragment"
             app:destination="@id/addFragment2" />
+        <action
+            android:id="@+id/gotoEntries"
+            app:destination="@id/entriesFragment" />
     </fragment>
     <fragment
         android:id="@+id/addFragment2"
         android:name="com.dogpo.mvvmdemo.add.AddFragment"
         android:label="AddFragment" />
+    <fragment
+        android:id="@+id/entriesFragment"
+        android:name="com.dogpo.mvvmdemo.entries.EntriesFragment"
+        android:label="EntriesFragment" />
 </navigation>
